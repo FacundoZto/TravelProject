@@ -13,12 +13,24 @@ const Landing = ():JSX.Element => {
     return(
         <Fragment>
             <Header/>
-            <Home/>
-            <About/>
-            <Services/>
-            <Products/>
-            <Details/>
-            <Contact/>
+            <section id='home'>
+                <Home/>
+            </section>
+            <section id='about'>
+                <About/>
+            </section>
+            <section id='services'>
+                <Services/>
+            </section>
+            <section id='products'>
+                <Products/>
+            </section>
+            <section id='details'>
+                <Details/>
+            </section>
+            <section id='contact'>
+                <Contact/>
+            </section>
             <Footer/>
         </Fragment>
     )
