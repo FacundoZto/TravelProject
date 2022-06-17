@@ -72,8 +72,20 @@
         height: auto;
     }
 
+    .title{
+        font-size: 32px;
+    }
+
+    .text{
+        font-size: 14px;
+    }
+
     .text{
         width: 95%;
+    }
+
+    .icon {
+        font-size: 28px;
     }
 
     .secondDiv{

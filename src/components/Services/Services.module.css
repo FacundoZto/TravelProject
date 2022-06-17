@@ -35,7 +35,7 @@
 
 .contentIcons {
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     width: 100%;
     justify-content: space-around;
 }
@@ -56,4 +56,37 @@
 .icon{
     color: #E0752F;
     font-size: 60px;
+}
+
+@media only screen and (max-width: 720px) {
+    .icon{
+        font-size: 40px;
+    }
+
+    .subcontentIcon label{
+        font-size: 16px;
+    }
+
+    .contentIcons{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .services{
+        height: auto;
+    }
+
+    .content{
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .title{
+        font-size: 32px;
+    }
+    
+    .text{
+        font-size: 16px;
+    }
 }

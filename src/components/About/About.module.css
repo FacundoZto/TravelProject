@@ -60,3 +60,38 @@
     font-size: 14px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 900px){
+    .img{
+        margin-left: 0;
+    }
+
+    .info{
+        margin-left: 5%;
+    }
+    
+}
+
+@media only screen and (max-width: 720px){
+    .title{
+        font-size: 32px;
+    }
+
+    .subtitle{
+        font-size: 18px;
+    }
+
+    .text{
+        line-height: 22px;
+    }
+
+    /* .img{
+        display: none;
+    } */
+}
+
+@media only screen and (max-width: 600px) {
+    .img{
+        display: none;
+    }
+}
