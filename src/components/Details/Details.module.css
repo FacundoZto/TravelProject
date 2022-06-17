@@ -62,3 +62,26 @@
     padding: 10px;
     margin-right: 9px;
 }
+
+@media only screen and (max-width: 600px) {
+    .details{
+        height: auto;
+    }
+
+    .content{
+        height: auto;
+    }
+
+    .text{
+        width: 95%;
+    }
+
+    .secondDiv{
+        flex-direction: column;
+    }
+
+    .detail{
+        padding: 6px 0px;
+        margin: 4px 0px;
+    }
+}
