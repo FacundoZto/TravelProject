@@ -75,6 +75,11 @@
         background-image: url(../../assets/bgmobile.jpg);
     }
 
+    .data{
+        width: 90%;
+        left: 6px;
+    }
+
     .title{
         font-size: 22px;
     }
