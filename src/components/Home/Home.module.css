@@ -1,112 +1,116 @@
-.home{
-    width: 100%;
-    height: 100vh;
+.home {
+  width: 100%;
+  height: 900px;
+  max-width: 1600px;
+  max-height: 1000px;
 }
 
-.next, .prev {
-    top: calc(50% - 20px);
-    position: absolute;
-    width: 60px;
-    height: 70px;
-    border: none;
-    border-radius: 40%;
-    background-color: rgb(0, 0, 0, 0.6);
-    cursor: pointer;
+.next,
+.prev {
+  top: calc(50% - 20px);
+  position: absolute;
+  width: 60px;
+  height: 70px;
+  border: none;
+  border-radius: 40%;
+  background-color: rgb(0, 0, 0, 0.6);
+  cursor: pointer;
 }
 
 .prev {
-    left: 20px;
+  left: 20px;
 }
 
 .next {
-    right: 20px;
+  right: 20px;
 }
 
 .prev span {
-    color: orange;
+  color: orange;
 }
 
 .next span {
-    color: orange;
+  color: orange;
 }
 
 .item {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100vh;
-    max-width: 1600px;
-    max-height: 1200px;
+  position: absolute;
+  top: 97px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 1400px;
+  max-width: 1600px;
+  max-height: 800px;
+  border-radius: 10px;
 }
 
 .data {
-    position: absolute;
-    top: calc(30%);
-    left: 10vw;
-    width: 50%;
+  position: absolute;
+  top: calc(30%);
+  left: 10vw;
+  width: 50%;
 }
 
 .title {
-    color: white;
-    font-size: 38px;
+  color: white;
+  font-size: 38px;
 }
 
 .phrase {
-    color: white;
-    font-size: 16px;
+  color: white;
+  font-size: 16px;
 }
 
 .readBtn {
-    width: 120px;
-    height: 40px;
-    border-radius: 25px;
-    border: none;
-    color: white;
-    background: #E0752F;
-    font-size: 14px;
-    cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  background: #e0752f;
+  font-size: 14px;
+  cursor: pointer;
 }
 
+@media only screen and (max-width: 600px) {
+  .home {
+    background-image: url(../../assets/bgmobile.jpg);
+  }
 
+  .data {
+    width: 90%;
+    left: 6px;
+  }
 
-@media only screen and (max-width: 600px){
-    .home{
-        background-image: url(../../assets/bgmobile.jpg);
-    }
+  .title {
+    font-size: 22px;
+  }
+  .phrase {
+    font-size: 14px;
+  }
+  .readBtn {
+    width: 100px;
+    height: 38px;
+    font-size: 14px;
+  }
 
-    .data{
-        width: 90%;
-        left: 6px;
-    }
+  .next,
+  .prev {
+    top: calc(75%);
+    width: 40px;
+    height: 45px;
+  }
 
-    .title{
-        font-size: 22px;
-    }
-    .phrase{
-        font-size: 14px;
-    }
-    .readBtn {
-        width: 100px;
-        height: 38px;
-        font-size: 14px;
-    }
+  .item {
+    display: none;
+  }
 
-    .next, .prev{
-        top: calc(75%);
-        width: 40px;
-        height: 45px;
-    }
+  .prev {
+    left: 30%;
+  }
 
-    .item{
-        display: none;
-    }
-
-    .prev {
-        left: 30%;
-    }
-    
-    .next {
-        right: 30%;
-    }
+  .next {
+    right: 30%;
+  }
 }
