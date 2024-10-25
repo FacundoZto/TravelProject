@@ -12,7 +12,7 @@ const Header = () => {
   const background = useTransform(
     scrollY,
     [0.1, 1],
-    ["grey", "rgb(224, 117, 47, 0.9)"]
+    ["#E0752F", "rgb(224, 117, 47, 0.85)"]
   );
   //-------------
 
