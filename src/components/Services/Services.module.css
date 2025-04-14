@@ -1,24 +1,24 @@
 .services {
-    height: 550px;
     display: flex;
     align-items: center;
     background-color: #ebebeb;
+    padding: 30px 25px 80px 25px;
 }
 
 .content {
-    height: 450px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 .contentService {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 2;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .title {
@@ -29,15 +29,17 @@
 
 .text {
     width: 70%;
-    font-size: 18px;
+    font-size: 20px;
     color: #4f4f4fff;
 }
 
 .contentIcons {
     display: flex;
-    /* flex: 1; */
+    gap: 22px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .subcontentIcon {
@@ -56,37 +58,4 @@
 .icon{
     color: #E0752F;
     font-size: 60px;
-}
-
-@media only screen and (max-width: 720px) {
-    .icon{
-        font-size: 40px;
-    }
-
-    .subcontentIcon label{
-        font-size: 16px;
-    }
-
-    .contentIcons{
-        flex-wrap: wrap;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    .services{
-        height: auto;
-    }
-
-    .content{
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    .title{
-        font-size: 32px;
-    }
-    
-    .text{
-        font-size: 16px;
-    }
 }

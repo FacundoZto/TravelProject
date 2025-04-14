@@ -7,7 +7,7 @@ const Contact = () => {
             <div className={style.content}>
                 <div className={style.divContent}>
                     <h1 className={style.title}>Get in touch</h1>
-                    <h1 className={style.subtitle}>We are hiring!</h1>
+                    <h1 className={style.subtitle}>Get your next travel</h1>
                     <form className={style.form}>
                         <div className={style.inputContainer}>
                             <input

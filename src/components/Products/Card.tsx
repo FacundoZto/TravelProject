@@ -1,14 +1,20 @@
 import style from './card.module.css';
 
-const Card = () => {
-    return(
+interface CardProps {
+    country: string;
+    cities: string[];
+}
+
+const Card: React.FC<CardProps> = ({ country, cities }) => {
+    return (
         <div className={style.card}>
-            <h3 className={style.title}>Lorem ipsum dolor sit amet</h3>
+            <h3 className={style.title}>{country}</h3>
             <ul className={style.list}>
-                <li className={style.itemList}><strong className={style.letter}>E</strong>psum sanctus clita no soluta.</li>
-                <li className={style.itemList}><strong className={style.letter}>V</strong>ero dolore ex dolor vel magna diam ut nibh.</li>
-                <li className={style.itemList}><strong className={style.letter}>A</strong>met augue tempor et kasd sadipscing.</li>
-                <li className={style.itemList}><strong className={style.letter}>A</strong>ccusam ut elit.</li>
+                {
+                    cities.map((city, index) => (
+                        <li className={style.itemList} key={index}><strong className={style.letter}>•</strong>{city}</li>
+                    ))
+                }
             </ul>
         </div>
     )

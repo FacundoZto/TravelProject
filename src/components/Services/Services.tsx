@@ -1,32 +1,31 @@
 import style from './Services.module.css';
 
 const Services = () => {
-    return(
+    return (
         <div className={style.services}>
             <div className={style.content}>
                 <div className={style.contentService}>
                     <h1 className={style.title}>Services</h1>
                     <p className={style.text}>
-                        Lorem ipsum dolor sit amet ipsum ut dolores. Sed dolor sit ea sed takimata gubergren diam 
-                        sea aliquyam sadipscing dolor diam et amet ut lorem. Duis facilisi id nibh vero invidunt
+                        We work closely with you to understand your wants and needs, ensuring that each trip is unique and memorable.
                     </p>
                 </div>
                 <div className={style.contentIcons}>
                     <div className={style.subcontentIcon}>
-                    <span className= {`${style.icon} material-symbols-outlined`}>public</span>
-                    <label>Lorem ipsum dolor sit amet</label>
+                        <span className={`${style.icon} material-symbols-outlined`}>public</span>
+                        <label>Full coverage</label>
                     </div>
                     <div className={style.subcontentIcon}>
-                    <span className= {`${style.icon} material-symbols-outlined`}>support_agent</span>
-                    <label>Ex duo erat nulla</label>
+                        <span className={`${style.icon} material-symbols-outlined`}>support_agent</span>
+                        <label>Administrative support</label>
                     </div>
                     <div className={style.subcontentIcon}>
-                    <span className= {`${style.icon} material-symbols-outlined`}>medical_services</span>
-                    <label>Aliquyam rebum sit vel</label>
+                        <span className={`${style.icon} material-symbols-outlined`}>medical_services</span>
+                        <label>Health insurance</label>
                     </div>
                     <div className={style.subcontentIcon}>
-                    <span className= {`${style.icon} material-symbols-outlined`}>currency_exchange</span>
-                    <label> No tempor rebum dolore</label>
+                        <span className={`${style.icon} material-symbols-outlined`}>currency_exchange</span>
+                        <label> Currency exchanges</label>
                     </div>
                 </div>
             </div>

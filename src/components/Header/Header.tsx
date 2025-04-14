@@ -2,26 +2,16 @@ import style from "./Header.module.css";
 import { useState } from "react";
 import Web from "./Web/Web";
 import Mobile from "./Mobile/Mobile";
-import { motion, useViewportScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Header = () => {
   const [state, setState] = useState<boolean>(false);
 
-  //-----Cambiar background del header-----
-  const { scrollY } = useViewportScroll();
-  const background = useTransform(
-    scrollY,
-    [0.1, 1],
-    ["#E0752F", "rgb(224, 117, 47, 0.85)"]
-  );
-  //-------------
-
   return (
     <motion.div
       className={style.header}
-      style={{ backgroundColor: background }}
     >
-      <div className={style.title}>Company</div>
+      <div className={style.title}>Moondo</div>
       <div className={style.menu}>
         <div className={style.web}>
           <Web />

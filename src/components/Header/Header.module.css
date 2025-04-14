@@ -3,8 +3,7 @@
   justify-content: space-between;
   height: 96px;
   align-items: center;
-  /* border-bottom: solid 1px #e0752f; */
-  background-color: grey;
+  background-color: #E0752F;
   position: fixed;
   width: 100%;
   z-index: 5;
@@ -25,7 +24,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 920px) {
   .web {
     display: none;
   }

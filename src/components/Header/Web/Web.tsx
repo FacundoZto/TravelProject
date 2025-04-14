@@ -42,7 +42,7 @@ const Web = ():JSX.Element => {
                 offset={-96} 
                 duration={550}
                 className={style.link}
-                >Products</Link>
+                >Destinations</Link>
             </div>
             <div className={style.option}>
                 <Link

@@ -1,62 +1,54 @@
 import style from './Details.module.css';
 
 const Details = () => {
-    return(
+    return (
         <div className={style.details}>
             <div className={style.content}>
                 <div className={style.divContent}>
                     <h2 className={style.title}>More details</h2>
-                    <p className={style.text}>Lorem ipsum dolor sit amet ipsum lorem est no justo voluptua
-                     ut vel erat ipsum ut dolore. Dolores justo et at eirmod autem quis sed stet sed dolor
-                      sit aliquyam clita duo. Eos molestie dolore doming lorem esse dolore suscipit clita 
-                      sanctus esse. Et nihil iriure enim diam minim nonummy duo.
+                    <p className={style.text}>
+                        Every traveler is unique. That’s why we offer a range of services designed to create a completely personalized travel experience. Whether it’s a family vacation, a romantic getaway, or an adventure trip, we have the right package for you.
                     </p>
                 </div>
 
                 <div className={style.secondDiv}>
                     <div className={style.list}>
                         <div className={style.detail}>
-                            <span className= {`${style.icon} material-symbols-outlined`}>info</span>
+                            <span className={`${style.icon} material-symbols-outlined`}>explore</span>
                             <label>
-                                Lorem ipsum dolor sit amet tempor amet esse aliquyam aliquyam erat. 
-                                Diam vero euismod odio et dolor quis nonumy vero tempor adipiscing
+                            Expert planning tailored to your personal interests and schedule.
                             </label>
                         </div>
                         <div className={style.detail}>
-                            <span className= {`${style.icon} material-symbols-outlined`}>settings</span>
+                            <span className={`${style.icon} material-symbols-outlined`}>explore</span>
                             <label>
-                                Lorem ipsum dolor sit amet tempor amet esse aliquyam aliquyam erat. 
-                                Diam vero euismod odio et dolor quis nonumy vero tempor adipiscing
+                            Seamless arrangements to ensure a stress-free travel experience
                             </label>
                         </div>
                         <div className={style.detail}>
-                            <span className= {`${style.icon} material-symbols-outlined`}>details</span>
+                            <span className={`${style.icon} material-symbols-outlined`}>explore</span>
                             <label>
-                                Lorem ipsum dolor sit amet tempor amet esse aliquyam aliquyam erat. 
-                                Diam vero euismod odio et dolor quis nonumy vero tempor adipiscing
+                            Immersive activities that allow you to experience destinations like a local.
                             </label>
                         </div>
                     </div>
                     <div className={style.list}>
                         <div className={style.detail}>
-                            <span className= {`${style.icon} material-symbols-outlined`}>notifications</span>
+                            <span className={`${style.icon} material-symbols-outlined`}>explore</span>
                             <label>
-                                Lorem ipsum dolor sit amet tempor amet esse aliquyam aliquyam erat. 
-                                Diam vero euismod odio et dolor quis nonumy vero tempor adipiscing
+                            Our team is always ready to assist you throughout your journey.
                             </label>
                         </div>
                         <div className={style.detail}>
-                            <span className= {`${style.icon} material-symbols-outlined`}>inventory_2</span>
+                            <span className={`${style.icon} material-symbols-outlined`}>explore</span>
                             <label>
-                                Lorem ipsum dolor sit amet tempor amet esse aliquyam aliquyam erat. 
-                                Diam vero euismod odio et dolor quis nonumy vero tempor adipiscing
+                            Customized travel solutions for families, events, and business trips.
                             </label>
                         </div>
                         <div className={style.detail}>
-                            <span className= {`${style.icon} material-symbols-outlined`}>explore</span>
+                            <span className={`${style.icon} material-symbols-outlined`}>explore</span>
                             <label>
-                                Lorem ipsum dolor sit amet tempor amet esse aliquyam aliquyam erat. 
-                                Diam vero euismod odio et dolor quis nonumy vero tempor adipiscing
+                            Peace of mind with comprehensive coverage options tailored to your needs.
                             </label>
                         </div>
                     </div>

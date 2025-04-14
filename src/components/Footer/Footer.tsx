@@ -5,7 +5,7 @@ const Footer = () => {
     return(
         <div className={style.footer}>
             <div className={style.div1}>
-                <h3>Company</h3>
+                <h3>Moondo</h3>
             </div>
             <div className={style.div2}>
                 <Link
@@ -39,7 +39,7 @@ const Footer = () => {
                 offset={-96} 
                 duration={550}
                 className={style.link}
-                >Products</Link>
+                >Destinations</Link>
                 <Link
                 to="details" 
                 spy={true} 
@@ -57,15 +57,7 @@ const Footer = () => {
                 className={style.link}
                 >Contact</Link>
             </div>
-            <div className={style.div3}>
-                <h3>Follow us</h3>
-                <div className={style.icons}>
-                    <i className="devicon-github-original"></i>
-                    <i className="devicon-twitter-original"></i>
-                    <i className="devicon-facebook-plain"></i>
-                    <i className="devicon-linkedin-plain"></i>
-                </div>
-            </div>
+            
         </div>
     )
 }
