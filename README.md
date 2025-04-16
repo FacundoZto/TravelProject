@@ -20,8 +20,9 @@
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (vanilla)**
-- **AOS (Animate On Scroll) Library**
+- **Typescript**
+- **React**
+- **Framer motion**
 - **Vercel** for deployment
 
 ## Installation
